@@ -75,7 +75,6 @@ $error-color: #cc0000 !default;
 		}
 		&:before {
 			background: transparent;
-			overflow: hidden;
 			top:50%;
 			left:50%;
 			margin-top: -($checkbox-size / 2) / 2 - $checkbox-marker-size / 2;
