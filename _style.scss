@@ -1,6 +1,7 @@
 $checkbox-bg-color: white !default;
 $checkbox-checked-bg-color: #0075a2 !default;
 $checkbox-border: 1px solid #cfcfbe !default;
+$checkbox-checked-border-color: $checkbox-border !default;
 $checkbox-hover-color: #cfcfbe !default;
 $checkbox-size: 20px !default;
 
@@ -26,7 +27,7 @@ $error-color: #cc0000 !default;
 		position: absolute;
 
 		&:checked + .ui-checkbox-marker {
-			border-color: $checkbox-checked-bg-color;
+			border-color: $checkbox-checked-border-color;
 			background: $checkbox-checked-bg-color;
 
 			//transition: all 0.15s ease-in-out 0.3s;
