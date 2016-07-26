@@ -33,6 +33,7 @@ $error-color: #cc0000 !default;
 			//transition: all 0.15s ease-in-out 0.3s;
 
 			&:before {
+				display: block;
 				border-color: $checkbox-marker-active-color;
 				opacity: 1;
 				animation: marker-checked 0.2s ease-out;
@@ -59,7 +60,7 @@ $error-color: #cc0000 !default;
 			background: $checkbox-hover-color;
 
 			&:before {
-				opacity: 20;
+				display: none;
 			}
 		}
 	}
