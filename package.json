@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Goldinteractive/ui-checkbox/issues"
   },
-  "homepage": "https://github.com/Goldinteractive/ui-checkbox#readme"
+  "homepage": "https://github.com/Goldinteractive/ui-checkbox#readme",
+  "dependencies": {
+    "gi-scss-mixins": "https://github.com/Goldinteractive/scss-mixins"
+  }
 }
